@@ -1,0 +1,14 @@
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Alexandre Jose Ferreira', '10120225603', '4000.00', '1990-06-14', '0');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Alexandre Jose Ferreira', '10120225603', '4000.00', '1990-06-14', '0');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Alexandre Jose Ferreira', '10120225603', '4000.00', '1990-06-14', '0');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Alexandre Jose Ferreira', '10120225603', '4000.00', '1990-06-14', '0');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Alexandre Jose Ferreira', '10120225603', '4000.00', '1990-06-14', '0');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Alexandre Jose Ferreira', '10120225603', '4000.00', '1990-06-14', '0');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Alexandre Jose Ferreira', '10120225603', '4000.00', '1990-06-14', '0');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Alexandre Jose Ferreira', '10120225603', '4000.00', '1990-06-14', '0');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Alexandre Jose Ferreira', '10120225603', '4000.00', '1990-06-14', '0');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Alexandre Jose Ferreira', '10120225603', '4000.00', '1990-06-14', '0');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Alexandre Jose Ferreira', '10120225603', '4000.00', '1990-06-14', '0');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Alexandre Jose Ferreira', '10120225603', '4000.00', '1990-06-14', '0');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Alexandre Jose Ferreira', '10120225603', '4000.00', '1990-06-14', '0');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Alexandre Jose Ferreira', '10120225603', '4000.00', '1990-06-14', '0');
