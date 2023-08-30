@@ -2,6 +2,8 @@ package com.alejfneto.desafio_03.dto;
 
 import java.time.LocalDate;
 
+import com.alejfneto.desafio_03.entities.Client;
+
 public class ClientDTO {
 	
 	private Long id;
@@ -18,6 +20,15 @@ public class ClientDTO {
 		this.income = income;
 		this.birthDate = birthDate;
 		this.children = children;
+	}
+	
+	public ClientDTO (Client client) {
+		id = client.getId();
+		name = client.getName();
+		cpf = client.getCpf();
+		income = client.getIncome();
+		birthDate = client.getBirthDate();
+		children = client.getChildren();
 	}
 
 	public Long getId() {
