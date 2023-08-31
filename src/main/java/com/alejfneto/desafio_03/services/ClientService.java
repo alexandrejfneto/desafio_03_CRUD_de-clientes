@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.alejfneto.desafio_03.dto.ClientDTO;
@@ -24,7 +25,7 @@ public class ClientService {
 	@Transactional (readOnly = true)
 	public ClientDTO findById (Long id){
 		Optional <Client> opt = repository.findById(id);
-		Client client = opt.orElseThrow(() -> new ResourceNotFoundException("Recurso não encontrado!"));
+		Client client = opt.orElseThrow(() -> new ResourceNotFoundException("Cliente não encontrado!"));
 		ClientDTO cltDTO = new ClientDTO(client);
 		return cltDTO;
 	}
@@ -56,8 +57,16 @@ public class ClientService {
 		clt = repository.save(clt);
 		return new ClientDTO(clt);
 		} catch (EntityNotFoundException e){
-			throw new ResourceNotFoundException("Recurso não encontrado!");			
+			throw new ResourceNotFoundException("Cliente não encontrado!");			
 		}
 	}
 
+	@Transactional
+	public void deletById(Long id) {
+		if (!repository.existsById(id)) {
+			throw new ResourceNotFoundException("Cliente não encontrado");
+		}
+		repository.deleteById(id);	
+	}
+	
 }
